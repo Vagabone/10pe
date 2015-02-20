@@ -1,0 +1,13 @@
+.article {
+    text-align: center;
+}
+
+.article-header {
+    margin-bottom: 50px;
+}
+
+.article-context {
+    padding-right: 100px;
+    padding-left: 100px;
+
+}

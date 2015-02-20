@@ -1,0 +1,176 @@
+body {
+    font-family: "Maven Pro", sans-serif;
+    margin: 0;
+    vertical-align: baseline;
+    width: 100%;
+}
+
+.top-navigation {
+    background-color: #242424;
+    width: 100%;
+    float: left;
+    height: 52px;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 3%;
+    height: 100%;
+    overflow: auto;
+}
+
+.logo {
+    margin: auto 0;
+    float: left;
+    font-size: 1.5em;
+    padding: 12px 0px;
+
+}
+
+.logo p {
+    margin: auto 0;
+    color: aquamarine;
+}
+
+.reg {
+    border-right: 1px solid rgb(60, 60, 60);
+    float: right;
+    padding: 13px 16px;
+}
+
+.reg ul, li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.reg li a {
+    color: #777777;
+    display: block;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 0.8125em;
+    padding: 5px 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.reg span {
+    font-size: 0.8125em;
+    color: #777777;
+    text-transform: lowercase;
+}
+
+.search {
+    padding: 10px 10px;
+    float: right;
+    border-right: 1px solid rgb(60, 60, 60);
+}
+
+.search form input {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.top-panel {
+    float: left;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+}
+
+.panel {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    overflow: auto;
+}
+
+.basket {
+    float: right;
+    display: inline-block;
+    border-right: 1px solid rgb(60, 60, 60);
+    border-left: 1px solid rgb(60, 60, 60);
+    padding: 10px;
+    padding-bottom: 6px;
+}
+
+.star {
+    float: right;
+    display: inline-block;
+    border-left: 1px solid rgb(60, 60, 60);
+    padding: 10px;
+    padding-bottom: 6px;
+}
+
+.star-number {
+    height: 50%;
+    display: inline-block;
+    background-color: #cccccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+.star-number p {
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+    margin: 0;
+
+}
+
+.image {
+    display: inline-block;
+    height: 40%;
+    margin: 0 10;
+    padding-top: 3px;
+}
+
+.basket-number {
+    height: 50%;
+    display: inline-block;
+    background-color: aquamarine;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+.basket-number p {
+    font-weight: bold;
+    color: white;
+    padding: 0px 2px;
+    margin: 0;
+
+}
+
+.navigation-menu {
+    float: left;
+    height: 100%;
+}
+.navigation-menu div{
+    display: inline-block;
+    border-left: 1px solid rgb(60, 60, 60);
+}
+.menu-component{
+    padding: 15 5;
+}
+.menu-component-right{
+    padding: 15 5;
+    border-left: 1px solid rgb(60, 60, 60);
+    border-right: 1px solid rgb(60, 60, 60);
+}
+
+.navigation-menu a {
+    padding: 0 5;
+    text-decoration: none;
+    font-weight: bold;
+    color: #242424;
+}
+
+
