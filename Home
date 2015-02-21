@@ -92,16 +92,16 @@ body {
     display: inline-block;
     border-right: 1px solid rgb(60, 60, 60);
     border-left: 1px solid rgb(60, 60, 60);
-    padding: 10px;
-    padding-bottom: 6px;
+    padding: 9px 6px;
+    padding-bottom: 8px;
 }
 
 .star {
     float: right;
     display: inline-block;
     border-left: 1px solid rgb(60, 60, 60);
-    padding: 10px;
-    padding-bottom: 6px;
+    padding: 9px 6px;
+    padding-bottom: 8px;
 }
 
 .star-number {
@@ -127,7 +127,7 @@ body {
 .image {
     display: inline-block;
     height: 40%;
-    margin: 0 10;
+    margin: 0px 10px;
     padding-top: 3px;
 }
 
@@ -158,19 +158,29 @@ body {
     border-left: 1px solid rgb(60, 60, 60);
 }
 .menu-component{
-    padding: 15 5;
+    padding: 15px 5px;
 }
 .menu-component-right{
-    padding: 15 5;
+    padding: 15px 5px;
     border-left: 1px solid rgb(60, 60, 60);
     border-right: 1px solid rgb(60, 60, 60);
 }
 
 .navigation-menu a {
-    padding: 0 5;
+    padding: 0px 5px;
     text-decoration: none;
     font-weight: bold;
     color: #242424;
+}
+
+.top-slider{
+    width: 100%;
+    margin: 0 ;
+
+}
+.slider-information{
+
+
 }
 
 
