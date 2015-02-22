@@ -1,7 +1,6 @@
 body {
     font-family: "Maven Pro", sans-serif;
     margin: 0;
-    vertical-align: baseline;
     width: 100%;
 }
 
@@ -9,7 +8,7 @@ body {
     background-color: #242424;
     width: 100%;
     float: left;
-    height: 52px;
+
 }
 
 .header {
@@ -153,14 +152,17 @@ body {
     float: left;
     height: 100%;
 }
-.navigation-menu div{
+
+.navigation-menu div {
     display: inline-block;
     border-left: 1px solid rgb(60, 60, 60);
 }
-.menu-component{
+
+.menu-component {
     padding: 15px 5px;
 }
-.menu-component-right{
+
+.menu-component-right {
     padding: 15px 5px;
     border-left: 1px solid rgb(60, 60, 60);
     border-right: 1px solid rgb(60, 60, 60);
@@ -173,14 +175,124 @@ body {
     color: #242424;
 }
 
-.top-slider{
+.top-slider {
     width: 100%;
-    margin: 0 ;
-
-}
-.slider-information{
-
+    margin: 0;
 
 }
 
+.slider-content {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 450px;
+}
 
+.slider-image {
+    height: 450px;
+
+}
+
+.slider-information {
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    left: 60%;
+}
+
+.prise {
+    background-color: aquamarine;
+    width: 60px;
+    padding: 0.1px 5px;
+    float: left;
+    height: 45px;
+    position: relative;
+}
+
+.prise span {
+    color: white;
+    font-weight: bold;
+    margin-top: 13px;
+    position: absolute;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.information-panel a {
+    margin: 1px;
+}
+
+.description {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.slider-name {
+    display: block;
+    font-size: 2em;
+    color: #242424;
+}
+
+.icons {
+    background: none repeat scroll 0 0 #ffffff;
+    line-height: 1.8em;
+    padding: 10px 10px 5px;
+}
+
+.slider-panel {
+    margin: 0;
+    width: 100%;
+    float: left;
+    background-color: #3f3f3f;
+}
+
+.slider {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slider-bar {
+    width: 100%;
+    float: left;
+    display: inline;
+    height: 10px;
+    background-color: #242424;
+    margin: 4px 3px;
+
+}
+
+.slider-cell {
+    display: inline-block;
+    width: 19%;
+}
+
+.slider-text{
+    margin: 0;
+    padding: 0;
+}
+.slider-text span, h4, p {
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+.slider-text p{
+    margin: 5px;
+    margin-bottom: 15px;
+}
+.slider-bar-active{
+    width: 96%;
+    margin: 3px auto;
+    height: 4px;
+    background-color: aquamarine;
+}
