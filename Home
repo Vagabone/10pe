@@ -545,17 +545,17 @@ a:visited {
 
 .footer-first {
     background-color: #242424;
-    height: 360px;
+    height: 190px;
     width: 100%;
     float: left;
 }
 
 .footer-widget-cell {
-    width: 260px;
+    width: 250px;
     margin-top: 15px;
     display: inline-block;
     float: left;
-    margin-left: 20px;
+    margin-left: 45px;
 
 }
 
@@ -589,4 +589,93 @@ a:visited {
     font-size: 0.75em;
     font-weight: bold;
     margin: 7px 0px;
+}
+.flickr-img{
+    display: inline-block;
+    margin: 2px;
+}
+
+.footer-second{
+    float: left;
+    background-color: #242424;
+    border-top: thin black inset;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.input-box{
+    border: none;
+    height: 30px;
+    background-color: #2e2e2e;
+    color: #6a6a6a;
+    font-style: italic;
+    font-size: 0.8em;
+    width: 200px;
+    padding: 0px;
+    padding-left: 10px;
+    display: inline-block;
+    float: left;
+
+}
+.submit-button{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.email-panel{
+    float: left;
+    margin-left: 30px;
+}
+.social-panel{
+    display: inline-block;
+    float: right;
+}
+.social-panel-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #2e2e2e;
+    float: left;
+    margin: 0 6px;
+
+}
+.social-panel-icon a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.social-panel-icon img{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20% 0% 0% 20%;
+    horiz-align: center;
+}
+.third-footer{
+    background-color: #2e2e2e;
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+}
+.footer-third-panel{
+    width: 960px;
+    margin: 0 auto;
+}
+.copyright{
+    display: inline-block;
+}
+.copyright-text{
+    color: #7d7d7d;
+    font-size: 0.65em;
+    font-weight: bold;
+
+}
+.links{
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+.links a{
+    color:#7d7d7d;
 }
